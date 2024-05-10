@@ -1,0 +1,31 @@
+body{
+    background-color: blue;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.container{
+    background-color: white;
+    max-width: 600px;
+    margin-top: 200px;
+    padding:30px 40px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+.container > h1{
+    padding: 20px;
+}
+button{
+    background-color: rgb(140, 0, 255);
+    color: white;
+    text-align: center;
+    padding: 12px 26px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
